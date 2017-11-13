@@ -1,0 +1,8 @@
+usa:
+    - subnet-291ea770:
+    - type: t2.micro
+        image: image-tagname
+        name: myinstance
+        key: mykey
+        ipaddr: 10.1.1.2
+        sg: [ssh-icmp-reply, http-https]
